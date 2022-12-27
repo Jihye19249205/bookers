@@ -7,4 +7,10 @@
   <%= @book.body %>
 </p>
 
-<% end %>
+<p>
+  <span><%= link_to "Edit", edit_book_path(@book.id) %></span>
+  <a href = "/books">Back</a>
+</p>
+
+
+
